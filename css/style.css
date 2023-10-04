@@ -68,6 +68,7 @@ h3 {
     height: 50px;
     width: 50px;
     background-color: white;
+    z-index: 1;
 }
 
 .cuore .fa-heart{
@@ -91,6 +92,14 @@ h3 {
 }
 
 .immagine-nascosta{
+    display: none;
+}
+
+.immagine-nascosta{
     position: absolute;
     left: 0;
+    top: 0;
+}
+.cambio-immagine:hover .immagine-nascosta{
+    display: block;
 }
