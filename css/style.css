@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* STYLE */
 
 img {
@@ -19,28 +20,52 @@ h3 {
     font-size: 18px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 
 .descrizione>h3{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 /* /STYLE */
-/* DEBUG */
-.debug .contenitore {
-    background-color: yellow;
+/* HEADER */
+
+nav{
+    justify-content: space-around;
+    height: 70px;
+    background-color: #ff6900;
+    align-items: center;
+    color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 99;
 }
 
-.debug .box {
-    border: 2px solid black;
+img.logo {
+    width: 200px;
+    color: #e7e7e7;
+    opacity: 0.5;
 }
+
+.speciali{
+    word-spacing: 10px;
+}
+/* DEBUG */
+
 /* /DEBUG */
 /* BOX */
-.contenitore {
+
+main{
     max-width: 1400px;
+    margin: 0 auto;
+}
+
+.contenitore {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 60px 0;
 }
 
 .box {
@@ -78,15 +103,14 @@ h3 {
 .importante{
     position: absolute;
     bottom: 130px;
+    color: white;
 }
 .sconto{
     background-color: red;
-    color: white;
     padding: 5px 10px;
 }
 .qualita{
     background-color: green;
-    color: white;
     padding: 5px 10px;
 }
 /* /SCONTO-QUALITA */
