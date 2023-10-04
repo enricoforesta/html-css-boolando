@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img{
+    width: 100%;
+    display: inline-block;
+}
+
+.h2{
+    font-size: 14px;
+}
+h3{
+    font-size: 20px;
+}
+
+.primo-prezzo{
+    color: red;
+}
+
+.secondo-prezzo{
+    color: grey;
+    text-decoration: line-through;
+}
+.debug .contenitore{
+    background-color: yellow;
+}
+.debug .box{ 
+    border: 2px solid black;
+}
+
+.contenitore{
+    max-width: 1400px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.box{
+    width:450px; 
+}
