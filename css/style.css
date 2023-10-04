@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-top: 120px;
+}
 
 /* STYLE */
 
@@ -20,18 +23,19 @@ h3 {
     font-size: 18px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-.descrizione>h3{
+.descrizione>h3 {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 /* /STYLE */
 /* HEADER */
 
-nav{
+nav {
     justify-content: space-around;
     height: 70px;
     background-color: #ff6900;
@@ -40,6 +44,7 @@ nav{
     position: fixed;
     right: 0;
     left: 0;
+    top: 0;
     z-index: 99;
 }
 
@@ -49,15 +54,14 @@ img.logo {
     opacity: 0.5;
 }
 
-.speciali{
+.speciali {
     word-spacing: 10px;
 }
-/* DEBUG */
 
-/* /DEBUG */
+/* MAIN */
 /* BOX */
 
-main{
+main {
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -81,51 +85,59 @@ main{
     color: grey;
     text-decoration: line-through;
 }
+
 /* /BOX */
+/* /MAIN */
 
 /* IMMAGINI POSITION */
 /* CUORE */
 .cuore {
     position: absolute;
     right: 0;
+    top: 10px;
     height: 50px;
     width: 50px;
     background-color: white;
     z-index: 1;
 }
 
-.cuore .fa-heart{
+.cuore .fa-heart {
     font-size: 20px;
     padding: 15px 15px;
 }
+
 /* /CUORE */
 /* SCONTO-QUALITA */
-.importante{
+.importante {
     position: absolute;
     bottom: 130px;
     color: white;
 }
-.sconto{
+
+.sconto {
     background-color: red;
     padding: 5px 10px;
 }
-.qualita{
+
+.qualita {
     background-color: green;
     padding: 5px 10px;
 }
+
 /* /SCONTO-QUALITA */
 /* HOVER */
-.immagine-nascosta{
+.immagine-nascosta {
     display: none;
 }
 
-.immagine-nascosta{
+.immagine-nascosta {
     position: absolute;
     left: 0;
     top: 0;
 }
-.cambio-immagine:hover .immagine-nascosta{
+
+.cambio-immagine:hover .immagine-nascosta {
     display: block;
 }
-/* /HOVER */
 
+/* /HOVER */
