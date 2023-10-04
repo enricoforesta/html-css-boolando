@@ -1,37 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+/* STYLE */
+
+img {
     width: 100%;
     display: inline-block;
 }
 
-.h2{
+h2 {
     font-size: 14px;
 }
-h3{
-    font-size: 20px;
+
+h3 {
+    font-size: 18px;
 }
 
-.primo-prezzo{
-    color: red;
+.descrizione>h3{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
-.secondo-prezzo{
-    color: grey;
-    text-decoration: line-through;
-}
-.debug .contenitore{
+/* /STYLE */
+/* DEBUG */
+.debug .contenitore {
     background-color: yellow;
 }
-.debug .box{ 
+
+.debug .box {
     border: 2px solid black;
 }
-
-.contenitore{
+/* /DEBUG */
+/* BOX */
+.contenitore {
     max-width: 1400px;
     display: flex;
     gap: 20px;
@@ -40,6 +42,44 @@ h3{
     padding: 60px 0;
 }
 
-.box{
-    width:450px; 
+.box {
+    width: 450px;
+    position: relative;
+}
+
+
+
+.primo-prezzo {
+    color: red;
+}
+
+.secondo-prezzo {
+    color: grey;
+    text-decoration: line-through;
+}
+/* /BOX */
+
+/* immagini position */
+
+.cuore {
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+.importante{
+    position: absolute;
+    bottom: 130px;
+}
+.sconto{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+.qualita{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
 }
