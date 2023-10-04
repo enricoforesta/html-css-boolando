@@ -7,7 +7,8 @@
 body {
     padding-top: 120px;
 }
-footer{
+
+footer {
     background-color: #1a1a1a;
     color: white;
 }
@@ -39,11 +40,10 @@ a {
 
 /* /STYLE */
 /* HEADER */
-
 nav {
     justify-content: space-around;
-    height: 70px;
     background-color: #ff6900;
+    height: 70px;
     align-items: center;
     color: white;
     position: fixed;
@@ -51,6 +51,7 @@ nav {
     left: 0;
     top: 0;
     z-index: 99;
+    box-shadow: 0px 0px 10px 0px black;
 }
 
 img.logo {
@@ -96,16 +97,19 @@ main {
 
 
 /* FOOTER */
-.contenitore-footer{
+.contenitore-footer {
     display: flex;
     justify-content: space-between;
     padding: 40px 250px;
     margin-top: 60px;
     line-height: 30px;
+    box-shadow: 0px 0px 10px 0px black;
 }
-div.contenitore-footer a{
-padding-right: 10px;
+
+div.contenitore-footer a {
+    padding-right: 10px;
 }
+
 /* /FOOTER */
 
 
@@ -148,11 +152,9 @@ padding-right: 10px;
 /* /IMMAGINI POSITION */
 
 /* HOVER */
-.immagine-nascosta {
-    display: none;
-}
 
 .immagine-nascosta {
+    display: none;
     position: absolute;
     left: 0;
     top: 0;
@@ -160,6 +162,18 @@ padding-right: 10px;
 
 .cambio-immagine:hover .immagine-nascosta {
     display: block;
+}
+
+.nascosta.fa-solid.fa-heart {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.cuore:hover .nascosta.fa-solid.fa-heart {
+    display: block;
+    right: 0;
+    top: 0px;
 }
 
 /* /HOVER */
