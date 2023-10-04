@@ -19,6 +19,7 @@ h3 {
     font-size: 18px;
 }
 
+
 .descrizione>h3{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -69,6 +70,11 @@ h3 {
     background-color: white;
 }
 
+.cuore .fa-heart{
+    font-size: 20px;
+    padding: 15px 15px;
+}
+
 .importante{
     position: absolute;
     bottom: 130px;
@@ -82,4 +88,9 @@ h3 {
     background-color: green;
     color: white;
     padding: 5px 10px;
+}
+
+.immagine-nascosta{
+    position: absolute;
+    left: 0;
 }
