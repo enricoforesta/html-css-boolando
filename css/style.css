@@ -7,6 +7,11 @@
 body {
     padding-top: 120px;
 }
+footer{
+    background-color: #1a1a1a;
+    color: white;
+}
+
 
 /* STYLE */
 
@@ -89,6 +94,21 @@ main {
 /* /BOX */
 /* /MAIN */
 
+
+/* FOOTER */
+.contenitore-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 250px;
+    margin-top: 60px;
+    line-height: 30px;
+}
+div.contenitore-footer a{
+padding-right: 10px;
+}
+/* /FOOTER */
+
+
 /* IMMAGINI POSITION */
 /* CUORE */
 .cuore {
@@ -125,6 +145,8 @@ main {
 }
 
 /* /SCONTO-QUALITA */
+/* /IMMAGINI POSITION */
+
 /* HOVER */
 .immagine-nascosta {
     display: none;
