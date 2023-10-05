@@ -8,11 +8,6 @@ body {
     padding-top: 120px;
 }
 
-footer {
-    background-color: #1a1a1a;
-    color: white;
-}
-
 
 /* STYLE */
 
@@ -64,9 +59,9 @@ img.logo {
     word-spacing: 10px;
 }
 
-/* MAIN */
-/* BOX */
+/* /HEADER */
 
+/* MAIN */
 main {
     max-width: 1400px;
     margin: 0 auto;
@@ -92,11 +87,15 @@ main {
     text-decoration: line-through;
 }
 
-/* /BOX */
 /* /MAIN */
 
 
 /* FOOTER */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+}
+
 .contenitore-footer {
     display: flex;
     justify-content: space-between;
